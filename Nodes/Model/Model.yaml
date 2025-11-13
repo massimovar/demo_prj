@@ -4,3 +4,7 @@ Children:
 - Name: Variable1
   Type: BaseDataVariableType
   DataType: Boolean
+- Name: Variable2
+  Id: g=ad7e1aa34624e4158caabeddf71d6c35
+  Type: BaseDataVariableType
+  DataType: Int32

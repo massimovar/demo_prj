@@ -404,311 +404,908 @@ Children:
       Type: DynamicLink
       DataType: NodePath
       Value: "/Objects/demo_prj@BrowseName"
-  - Name: Label1
-    Type: Label
+  - Name: Panel1
+    Type: Panel
     Children:
-    - Name: Text
-      Type: BaseDataVariableType
-      DataType: LocalizedText
-      ModellingRule: Optional
-      Value: {"LocaleId":"en-US","Text":"Label1"}
-    - Name: LeftMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 20.0
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 10.0
-    - Name: Style
-      Type: BaseDataVariableType
-      DataType: String
-      ModellingRule: Optional
-      Value: "WarningLabel"
     - Name: Width
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 160.0
+      Value: 790.0
     - Name: Height
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 30.0
-    - Name: TextHorizontalAlignment
-      Type: BaseVariableType
-      DataType: TextHorizontalAlignment
-      ModellingRule: Optional
-      Value: 1
-    - Name: TextVerticalAlignment
-      Type: BaseVariableType
-      DataType: TextVerticalAlignment
-      ModellingRule: Optional
-      Value: 1
-  - Name: Label2
-    Type: Label
-    Children:
-    - Name: Text
-      Type: BaseDataVariableType
-      DataType: LocalizedText
-      ModellingRule: Optional
-      Value: {"LocaleId":"en-US","Text":"Label2"}
+      Value: 620.0
     - Name: LeftMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 20.0
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 50.0
-    - Name: Style
-      Type: BaseDataVariableType
-      DataType: String
-      ModellingRule: Optional
-      Value: "WarningLabel"
-    - Name: Width
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 160.0
-    - Name: Height
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 30.0
-    - Name: TextHorizontalAlignment
-      Type: BaseVariableType
-      DataType: TextHorizontalAlignment
-      ModellingRule: Optional
-      Value: 1
-    - Name: TextVerticalAlignment
-      Type: BaseVariableType
-      DataType: TextVerticalAlignment
-      ModellingRule: Optional
-      Value: 1
-  - Name: Label3
-    Type: Label
-    Children:
-    - Name: Text
-      Type: BaseDataVariableType
-      DataType: LocalizedText
-      ModellingRule: Optional
-      Value: {"LocaleId":"en-US","Text":"Label3"}
-    - Name: LeftMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 20.0
-    - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
       Value: 90.0
-    - Name: Style
-      Type: BaseDataVariableType
-      DataType: String
-      ModellingRule: Optional
-      Value: "ErrorLabel"
-    - Name: Width
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 160.0
-    - Name: Height
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 30.0
-    - Name: TextHorizontalAlignment
-      Type: BaseVariableType
-      DataType: TextHorizontalAlignment
-      ModellingRule: Optional
-      Value: 1
-    - Name: TextVerticalAlignment
-      Type: BaseVariableType
-      DataType: TextVerticalAlignment
-      ModellingRule: Optional
-      Value: 1
-  - Name: SpinBox1
-    Type: SpinBox
-    Children:
-    - Name: Value
-      Type: BaseDataVariableType
-      DataType: Double
-    - Name: Width
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 80.0
-    - Name: LeftMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 110.0
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 405.0
-  - Name: LED1
-    Type: Led
-    Children:
-    - Name: Active
-      Type: BaseDataVariableType
-      DataType: Boolean
-      Children:
-      - Name: DynamicLink
-        Type: DynamicLink
-        DataType: NodePath
-        Value: "../../LedManager/Checked"
-    - Name: Width
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 60.0
-    - Name: Height
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 60.0
-    - Name: LeftMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 450.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
       Value: 50.0
-    - Name: Color
-      Type: BaseDataVariableType
-      DataType: Color
-      ModellingRule: Optional
-      Value: "#ffff00"
-  - Name: Button1
-    Type: Button
-    Children:
-    - Name: Text
-      Type: BaseDataVariableType
-      DataType: LocalizedText
-      ModellingRule: Optional
-      Value: {"LocaleId":"en-US","Text":"Button1"}
-    - Name: LeftMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 170.0
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 270.0
-    - Name: Width
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 120.0
-    - Name: Height
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 30.0
-  - Name: ToggleButton1
-    Type: ToggleButton
-    Children:
-    - Name: Active
+    - Name: LED6
+      Type: Led
+      Children:
+      - Name: Active
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "/Objects/demo_prj/Model/Variable1"
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 60.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 60.0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 380.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 150.0
+    - Name: LED5
+      Type: Led
+      Children:
+      - Name: Active
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "/Objects/demo_prj/Model/Variable1"
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 60.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 60.0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 520.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 150.0
+      - Name: Color
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: Optional
+        Value: "#00ff00"
+    - Name: LedManager1
+      Type: Switch
+      Children:
+      - Name: Checked
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "/Objects/demo_prj/Model/Variable1"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            ModellingRule: Optional
+            Value: 2
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 80.0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 600.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 160.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 30.0
+    - Name: LED4
+      Type: Led
+      Children:
+      - Name: Active
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "/Objects/demo_prj/Model/Variable1"
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 60.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 60.0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 450.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 150.0
+      - Name: Color
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: Optional
+        Value: "#ffff00"
+    - Name: Label6
+      Type: Label
+      Children:
+      - Name: Text
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"LocaleId":"en-US","Text":"Synch"}
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 481.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 125.0
+    - Name: Label5
+      Type: Label
+      Children:
+      - Name: Text
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"LocaleId":"en-US","Text":"Asynch"}
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 484.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 19.0
+    - Name: LED3
+      Type: Led
+      Children:
+      - Name: Active
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../LedManager/Checked"
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 60.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 60.0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 380.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 50.0
+    - Name: LED2
+      Type: Led
+      Children:
+      - Name: Active
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../LedManager/Checked"
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 60.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 60.0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 520.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 50.0
+      - Name: Color
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: Optional
+        Value: "#00ff00"
+    - Name: Label4
+      Type: Label
+      Children:
+      - Name: Text
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"LocaleId":"en-US","Text":"Label1"}
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 190.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 10.0
+      - Name: Style
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: Optional
+        Value: "Title"
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 130.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 30.0
+      - Name: TextHorizontalAlignment
+        Type: BaseVariableType
+        DataType: TextHorizontalAlignment
+        ModellingRule: Optional
+        Value: 1
+      - Name: TextVerticalAlignment
+        Type: BaseVariableType
+        DataType: TextVerticalAlignment
+        ModellingRule: Optional
+        Value: 1
+    - Name: LinearGauge1
+      Type: LinearGauge
+      Children:
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Float
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "/Objects/demo_prj/Model/Variable2"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            ModellingRule: Optional
+            Value: 2
+      - Name: MinValue
+        Type: BaseDataVariableType
+        DataType: Float
+      - Name: MaxValue
+        Type: BaseDataVariableType
+        DataType: Float
+        Value: 100.0
+      - Name: WarningZones
+        Type: BaseObjectType
+        Children:
+        - Name: WarningZone1
+          Type: WarningZone
+          Children:
+          - Name: From
+            Type: BaseDataVariableType
+            DataType: Float
+          - Name: To
+            Type: BaseDataVariableType
+            DataType: Float
+            Value: 42.0
+          - Name: Color
+            Type: BaseDataVariableType
+            DataType: Color
+            Value: "#00ff00"
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 80.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 155.0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 280.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 420.0
+      - Name: Orientation
+        Type: BaseDataVariableType
+        DataType: OrientationEnum
+        ModellingRule: Optional
+        Value: 1
+      - Name: ScalePosition
+        Type: BaseDataVariableType
+        DataType: PositionEnum
+        ModellingRule: Optional
+        Value: 2
+      - Name: ValueChangeBehaviour
+        Type: BaseDataVariableType
+        DataType: ValueChangeBehaviour
+        ModellingRule: Optional
+        Value: 1
+    - Name: LedManager
+      Type: Switch
+      Children:
+      - Name: Checked
+        Type: BaseDataVariableType
+        DataType: Boolean
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 80.0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 600.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 60.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 30.0
+    - Name: DelayedButton1
+      Type: DelayedButton
+      Children:
+      - Name: Text
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"LocaleId":"en-US","Text":"set to 42 after 5 sec"}
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 170.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 310.0
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 120.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 30.0
+      - Name: Delay
+        Type: BaseDataVariableType
+        DataType: Duration
+        ModellingRule: Optional
+        Value: "0:00:00:05.0000000"
+      - Name: MouseLongPressEventHandler1
+        Type: EventHandler
+        Children:
+        - Name: ListenEventType
+          Type: PropertyType
+          DataType: NodeId
+          Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseLongPress"
+        - Name: MethodsToCall
+          Type: BaseObjectType
+          Children:
+          - Name: MethodContainer1
+            Type: BaseObjectType
+            Children:
+            - Name: ns=2;ObjectPointer
+              Type: NodePointer
+              DataType: NodeId
+              Value: "/Objects/Commands/VariableCommands"
+              Children:
+              - Name: Kind
+                Type: PropertyType
+                DataType: NodeId
+                Value: "/Types/ObjectTypes/BaseObjectType"
+            - Name: ns=2;Method
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Set"
+            - Name: InputArguments
+              Type: BaseObjectType
+              Children:
+              - Name: VariableToModify
+                Type: BaseDataVariableType
+                DataType: VariablePointer
+                Description: {"NamespaceIndex":2,"TextId":"SetVariableToModifyDescription"}
+                Value: "/Objects/demo_prj/Model/Variable2"
+              - Name: Value
+                Type: BaseDataVariableType
+                DataType: Int32
+                Description: {"NamespaceIndex":2,"TextId":"SetValueDescription"}
+                Value: 42
+              - Name: ArrayIndex
+                Type: BaseDataVariableType
+                DataType: UInt32
+                Description: {"NamespaceIndex":2,"TextId":"SetArrayIndexDescription"}
+                ValueRank: ScalarOrOneDimension
+        - Name: EventArguments
+          Type: MouseLongPress
+          Children:
+          - Name: EventId
+            Type: PropertyType
+            DataType: ByteString
+          - Name: EventType
+            Type: PropertyType
+            DataType: NodeId
+          - Name: SourceNode
+            Type: PropertyType
+            DataType: NodeId
+          - Name: SourceName
+            Type: PropertyType
+            DataType: String
+          - Name: Time
+            Type: PropertyType
+            DataType: UtcTime
+          - Name: ReceiveTime
+            Type: PropertyType
+            DataType: UtcTime
+          - Name: Message
+            Type: PropertyType
+            DataType: LocalizedText
+          - Name: Severity
+            Type: PropertyType
+            DataType: UInt16
+    - Name: ToggleButton1
+      Type: ToggleButton
+      Children:
+      - Name: Active
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "/Objects/demo_prj/Model/Variable1"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            ModellingRule: Optional
+            Value: 2
+      - Name: Text
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"LocaleId":"en-US","Text":"ToggleButton1"}
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 171.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 350.0
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 119.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 30.0
+    - Name: Button1
+      Type: Button
+      Children:
+      - Name: Text
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"LocaleId":"en-US","Text":"set to 42"}
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 170.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 270.0
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 120.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 30.0
+      - Name: Opacity
+        Type: BaseVariableType
+        DataType: Float
+        Value: 100.0
+      - Name: MouseClickEventHandler1
+        Type: EventHandler
+        Children:
+        - Name: ListenEventType
+          Type: PropertyType
+          DataType: NodeId
+          Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
+        - Name: MethodsToCall
+          Type: BaseObjectType
+          Children:
+          - Name: MethodContainer1
+            Type: BaseObjectType
+            Children:
+            - Name: ns=2;ObjectPointer
+              Type: NodePointer
+              DataType: NodeId
+              Value: "/Objects/Commands/VariableCommands"
+              Children:
+              - Name: Kind
+                Type: PropertyType
+                DataType: NodeId
+                Value: "/Types/ObjectTypes/BaseObjectType"
+            - Name: ns=2;Method
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Set"
+            - Name: InputArguments
+              Type: BaseObjectType
+              Children:
+              - Name: VariableToModify
+                Type: BaseDataVariableType
+                DataType: VariablePointer
+                Description: {"NamespaceIndex":2,"TextId":"SetVariableToModifyDescription"}
+                Value: "/Objects/demo_prj/Model/Variable2"
+              - Name: Value
+                Type: BaseDataVariableType
+                DataType: Int32
+                Description: {"NamespaceIndex":2,"TextId":"SetValueDescription"}
+                Value: 42
+              - Name: ArrayIndex
+                Type: BaseDataVariableType
+                DataType: UInt32
+                Description: {"NamespaceIndex":2,"TextId":"SetArrayIndexDescription"}
+                ValueRank: ScalarOrOneDimension
+        - Name: EventArguments
+          Type: MouseClickEvent
+          Children:
+          - Name: EventId
+            Type: PropertyType
+            DataType: ByteString
+          - Name: EventType
+            Type: PropertyType
+            DataType: NodeId
+          - Name: SourceNode
+            Type: PropertyType
+            DataType: NodeId
+          - Name: SourceName
+            Type: PropertyType
+            DataType: String
+          - Name: Time
+            Type: PropertyType
+            DataType: UtcTime
+          - Name: ReceiveTime
+            Type: PropertyType
+            DataType: UtcTime
+          - Name: Message
+            Type: PropertyType
+            DataType: LocalizedText
+          - Name: Severity
+            Type: PropertyType
+            DataType: UInt16
+    - Name: LED1
+      Type: Led
+      Children:
+      - Name: Active
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../LedManager/Checked"
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 60.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 60.0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 450.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 50.0
+      - Name: Color
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: Optional
+        Value: "#ffff00"
+    - Name: SpinBox1
+      Type: SpinBox
+      Children:
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Double
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "/Objects/demo_prj/Model/Variable2"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            ModellingRule: Optional
+            Value: 2
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 110.0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 120.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 450.0
+      - Name: MinValue
+        Type: BaseDataVariableType
+        DataType: Double
+        ModellingRule: Optional
+      - Name: MaxValue
+        Type: BaseDataVariableType
+        DataType: Double
+        ModellingRule: Optional
+        Value: 100.0
+      - Name: Increment
+        Type: BaseDataVariableType
+        DataType: Double
+        ModellingRule: Optional
+        Value: 0.1
+      - Name: Editable
+        Type: BaseDataVariableType
+        DataType: Boolean
+        ModellingRule: Optional
+        Value: true
+    - Name: Label3
+      Type: Label
+      Children:
+      - Name: Text
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"LocaleId":"en-US","Text":"Label3"}
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 20.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 90.0
+      - Name: Style
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: Optional
+        Value: "ErrorLabel"
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 160.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 30.0
+      - Name: TextHorizontalAlignment
+        Type: BaseVariableType
+        DataType: TextHorizontalAlignment
+        ModellingRule: Optional
+        Value: 1
+      - Name: TextVerticalAlignment
+        Type: BaseVariableType
+        DataType: TextVerticalAlignment
+        ModellingRule: Optional
+        Value: 1
+    - Name: Label2
+      Type: Label
+      Children:
+      - Name: Text
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"LocaleId":"en-US","Text":"Label2"}
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 20.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 50.0
+      - Name: Style
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: Optional
+        Value: "WarningLabel"
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 160.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 30.0
+      - Name: TextHorizontalAlignment
+        Type: BaseVariableType
+        DataType: TextHorizontalAlignment
+        ModellingRule: Optional
+        Value: 1
+      - Name: TextVerticalAlignment
+        Type: BaseVariableType
+        DataType: TextVerticalAlignment
+        ModellingRule: Optional
+        Value: 1
+    - Name: Label1
+      Type: Label
+      Children:
+      - Name: Text
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"LocaleId":"en-US","Text":"Label1"}
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 20.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 10.0
+      - Name: Style
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: Optional
+        Value: "WarningLabel"
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 160.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 30.0
+      - Name: TextHorizontalAlignment
+        Type: BaseVariableType
+        DataType: TextHorizontalAlignment
+        ModellingRule: Optional
+        Value: 1
+      - Name: TextVerticalAlignment
+        Type: BaseVariableType
+        DataType: TextVerticalAlignment
+        ModellingRule: Optional
+        Value: 1
+    - Name: Enabled
       Type: BaseDataVariableType
       DataType: Boolean
-    - Name: Text
-      Type: BaseDataVariableType
-      DataType: LocalizedText
-      ModellingRule: Optional
-      Value: {"LocaleId":"en-US","Text":"ToggleButton1"}
-    - Name: LeftMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 171.0
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 350.0
-    - Name: Width
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 119.0
-    - Name: Height
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 30.0
-  - Name: DelayedButton1
-    Type: DelayedButton
-    Children:
-    - Name: Text
-      Type: BaseDataVariableType
-      DataType: LocalizedText
-      ModellingRule: Optional
-      Value: {"LocaleId":"en-US","Text":"DelayedButton1"}
-    - Name: LeftMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 170.0
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 310.0
-    - Name: Width
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 120.0
-    - Name: Height
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 30.0
-  - Name: LedManager
-    Type: Switch
-    Children:
-    - Name: Checked
+      Value: true
+    - Name: Visible
       Type: BaseDataVariableType
       DataType: Boolean
-    - Name: Width
-      Type: BaseVariableType
-      DataType: Size
       ModellingRule: Optional
-      Value: 80.0
-    - Name: LeftMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 600.0
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 60.0
-    - Name: Height
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 30.0
+      Value: true
   - Name: Checkbox1
     Type: CheckBox
     Children:
     - Name: Checked
       Type: BaseDataVariableType
       DataType: Boolean
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../Panel1/Enabled"
+        Children:
+        - Name: Mode
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          ModellingRule: Optional
+          Value: 2
     - Name: Text
       Type: BaseDataVariableType
       DataType: LocalizedText
@@ -718,332 +1315,11 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 110.0
+      Value: 900.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 445.0
-  - Name: LinearGauge1
-    Type: LinearGauge
-    Children:
-    - Name: Value
-      Type: BaseDataVariableType
-      DataType: Float
-    - Name: MinValue
-      Type: BaseDataVariableType
-      DataType: Float
-    - Name: MaxValue
-      Type: BaseDataVariableType
-      DataType: Float
-      Value: 100.0
-    - Name: WarningZones
-      Type: BaseObjectType
-    - Name: Width
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 328.0
-    - Name: Height
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 35.0
-    - Name: LeftMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 220.0
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 410.0
-  - Name: Label4
-    Type: Label
-    Children:
-    - Name: Text
-      Type: BaseDataVariableType
-      DataType: LocalizedText
-      ModellingRule: Optional
-      Value: {"LocaleId":"en-US","Text":"Label1"}
-    - Name: LeftMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 190.0
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 10.0
-    - Name: Style
-      Type: BaseDataVariableType
-      DataType: String
-      ModellingRule: Optional
-      Value: "Title"
-    - Name: Width
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 130.0
-    - Name: Height
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 30.0
-    - Name: TextHorizontalAlignment
-      Type: BaseVariableType
-      DataType: TextHorizontalAlignment
-      ModellingRule: Optional
-      Value: 1
-    - Name: TextVerticalAlignment
-      Type: BaseVariableType
-      DataType: TextVerticalAlignment
-      ModellingRule: Optional
-      Value: 1
-  - Name: LED2
-    Type: Led
-    Children:
-    - Name: Active
-      Type: BaseDataVariableType
-      DataType: Boolean
-      Children:
-      - Name: DynamicLink
-        Type: DynamicLink
-        DataType: NodePath
-        Value: "../../LedManager/Checked"
-    - Name: Width
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 60.0
-    - Name: Height
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 60.0
-    - Name: LeftMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 520.0
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 50.0
-    - Name: Color
-      Type: BaseDataVariableType
-      DataType: Color
-      ModellingRule: Optional
-      Value: "#00ff00"
-  - Name: LED3
-    Type: Led
-    Children:
-    - Name: Active
-      Type: BaseDataVariableType
-      DataType: Boolean
-      Children:
-      - Name: DynamicLink
-        Type: DynamicLink
-        DataType: NodePath
-        Value: "../../LedManager/Checked"
-    - Name: Width
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 60.0
-    - Name: Height
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 60.0
-    - Name: LeftMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 380.0
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 50.0
-  - Name: Label5
-    Type: Label
-    Children:
-    - Name: Text
-      Type: BaseDataVariableType
-      DataType: LocalizedText
-      ModellingRule: Optional
-      Value: {"LocaleId":"en-US","Text":"Asynch"}
-    - Name: LeftMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 484.0
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 19.0
-  - Name: Label6
-    Type: Label
-    Children:
-    - Name: Text
-      Type: BaseDataVariableType
-      DataType: LocalizedText
-      ModellingRule: Optional
-      Value: {"LocaleId":"en-US","Text":"Synch"}
-    - Name: LeftMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 481.0
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 125.0
-  - Name: LED4
-    Type: Led
-    Children:
-    - Name: Active
-      Type: BaseDataVariableType
-      DataType: Boolean
-      Children:
-      - Name: DynamicLink
-        Type: DynamicLink
-        DataType: NodePath
-        Value: "/Objects/demo_prj/Model/Variable1"
-    - Name: Width
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 60.0
-    - Name: Height
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 60.0
-    - Name: LeftMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 450.0
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 150.0
-    - Name: Color
-      Type: BaseDataVariableType
-      DataType: Color
-      ModellingRule: Optional
-      Value: "#ffff00"
-  - Name: LedManager1
-    Type: Switch
-    Children:
-    - Name: Checked
-      Type: BaseDataVariableType
-      DataType: Boolean
-      Children:
-      - Name: DynamicLink
-        Type: DynamicLink
-        DataType: NodePath
-        Value: "/Objects/demo_prj/Model/Variable1"
-        Children:
-        - Name: Mode
-          Type: BaseVariableType
-          DataType: DynamicLinkMode
-          ModellingRule: Optional
-          Value: 2
-    - Name: Width
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 80.0
-    - Name: LeftMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 600.0
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 160.0
-    - Name: Height
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 30.0
-  - Name: LED5
-    Type: Led
-    Children:
-    - Name: Active
-      Type: BaseDataVariableType
-      DataType: Boolean
-      Children:
-      - Name: DynamicLink
-        Type: DynamicLink
-        DataType: NodePath
-        Value: "/Objects/demo_prj/Model/Variable1"
-    - Name: Width
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 60.0
-    - Name: Height
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 60.0
-    - Name: LeftMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 520.0
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 150.0
-    - Name: Color
-      Type: BaseDataVariableType
-      DataType: Color
-      ModellingRule: Optional
-      Value: "#00ff00"
-  - Name: LED6
-    Type: Led
-    Children:
-    - Name: Active
-      Type: BaseDataVariableType
-      DataType: Boolean
-      Children:
-      - Name: DynamicLink
-        Type: DynamicLink
-        DataType: NodePath
-        Value: "/Objects/demo_prj/Model/Variable1"
-    - Name: Width
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 60.0
-    - Name: Height
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 60.0
-    - Name: LeftMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 380.0
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 150.0
+      Value: 55.0
 - File: Screens/Screens.yaml
 - File: Keyboards/Keyboards.yaml
