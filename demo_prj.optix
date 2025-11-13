@@ -33,16 +33,28 @@ Project:
    Uri: 'urn:FTOptix:WebUI'
    Module: FTOptix.WebUI
    Version: 1.2
+  9:
+   Uri: 'urn:FTOptix:CommunicationDriver'
+   Module: FTOptix.CommunicationDriver
+   Version: 3.0
+  10:
+   Uri: 'urn:FTOptix:CODESYS'
+   Module: FTOptix.CODESYS
+   Version: 2.0
+  11:
+   Uri: 'urn:FTOptix:OPCUAServer'
+   Module: FTOptix.OPCUAServer
+   Version: 1.2
  Statistics:
-  TotalNodeCount: 430
-  Objects: 128
+  TotalNodeCount: 596
+  Objects: 148
   ObjectTypes: 5
-  Variables: 297
+  Variables: 443
   VariableTypes: 0
   DataTypes: 0
   Methods: 0
-  References: 7
+  References: 13
   ReferenceTypes: 0
-  Files: 22
+  Files: 27
  Nodes:
  - File: Nodes/demo_prj.yaml
